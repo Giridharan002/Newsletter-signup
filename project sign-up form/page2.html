@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="Roboto-Bold.ttf">
+    <script src="index.js"></script>
+
+    <style>
+        .message{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 40px;
+            font-style: bold;
+            font-style: 700px;
+            width: 300px;
+        }
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: hsl(235, 18%, 26%);
+    }
+
+    p{
+        width: 370px;
+        font-size: 16px;
+    }
+
+    button{
+        width: 370px;
+        padding-top: 15px;
+        padding-bottom:15px;
+        margin-bottom: 50px;
+        color: white;
+        background-color: hsl(4, 100%, 67%);
+        border: none;
+        border-radius: 8px;
+        font-weight: 700;
+        font-style: bold;
+    }
+
+    button:active{
+        background-color: hsl(234, 29%, 20%);
+    }
+
+     .container{
+        background-color: white;
+        width: 450px;
+        padding-left: 70px;
+        border-radius: 20px;
+        margin-left: 500px;
+        margin-top: 200px;
+        /* display: flex;
+        justify-content: center; */
+     }
+    .tickmark{
+        width: 50px;
+        padding-top:40px ;
+        /* padding-left:; */
+    }
+
+</style>
+
+</head>
+<body>
+
+    <div class="container">
+         <div style="width: 300px;">
+            <img src="assets/images/icon-list.svg" alt="tickmark" class="tickmark">
+            <h1 class="message">Thanks for subscribing!</h1></div>
+        <div style="width: 300px;">
+            <p>A confirmation email has been sent to <span style="font-weight: 600; 
+                color: hsl(235, 18%, 26%);">ash@loremcompany.com</span>.Please open it and click the button inside to confirm your subscription.</p>
+              
+                <button id="dismiss_btn"  onclick="func()">Dismiss message</button>
+        </div>
+   
+    </div>
+   
+<script>
+    const Dismiss_Button = document.querySelector.getElementById("dismiss_btn");
+
+function func(){
+    // <a  herf = "index.html" target = "_blank"></a>
+    window.location.assign("index.html");
+};
+</script>
+
+</body>
+</html>

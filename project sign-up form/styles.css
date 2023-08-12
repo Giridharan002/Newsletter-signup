@@ -1,0 +1,96 @@
+
+body{
+    font-family: arial;
+    background-color: hsl(234, 29%, 20%);
+}
+
+
+h1{
+    font-weight: 700;
+    font-style: bold;
+    font-size: 35px;
+    
+}
+
+p{
+    font-size: 16px;
+    font-weight: 400;
+     
+}
+
+.description{
+    width: 400px;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+
+.paraend{
+    padding-bottom: 30px;
+}
+
+.email{
+    display: inline-block;
+    padding-bottom: 10px;
+    font-size: 15px;
+
+}
+
+.vaild_email{
+    padding-left: 120px;
+    color: red;
+}
+
+.inputbox{
+    display: block;
+    margin-bottom: 30px;
+    width: 305px;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button{
+    width: 370px;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 8px;
+    border: none;
+    background-color: hsl(4, 100%, 67%);
+}
+
+::placeholder{
+    font-size: 16px;
+}
+
+.button:active{
+    background-color: hsl(235, 18%, 26%);
+}
+.container{
+    display: flex;
+justify-content: center;
+margin-top:100px;
+background-color: hsl(0, 0%, 100%);
+width: 870px;
+padding-left: 50px;
+border-radius: 30px;
+margin-left: 280px;
+
+}
+
+.right{
+    padding: 20px;
+}
+
+.left{
+    padding-top: 80px;
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
